@@ -1,0 +1,43 @@
+{
+  "name": "zigbee-survey-tool",
+  "version": "1.11.1",
+  "title": "Node ZigBee Survey App",
+  "productName": "ZigBee Site Survey App",
+  "description": "Check the ZigBee network data using MMBs RapidConnect",
+  "keywords": [
+    "ZigBee",
+    "Node.js",
+    "MMB",
+    "RapidConnect",
+    "SiteSurvey"
+  ],
+  "author": {
+    "name": "Christian Kuster, CH-8342 Wernetshausen",
+    "email": "christian@kusti.ch",
+    "url": "http://www.kusti.ch/"
+  },
+  "homepage": "http://ancasicolica.github.io/ZigBeeSiteSurvey/",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ancasicolica/ZigBeeSiteSurvey.git"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": "6.1.0",
+    "npm": "3.9.2"
+  },
+  "main": "app.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "dependencies": {
+    "angular": "1.5.8",
+    "electron": "0.4.1",
+    "electron-prebuilt": "1.2.8",
+    "jquery": "3.1.0",
+    "lodash": "4.13.1",
+    "moment": "2.14.1",
+    "restify": "4.1.1",
+    "zigbee-survey-core": "ancasicolica/ZigBeeSiteSurveyCore"
+  }
+}
