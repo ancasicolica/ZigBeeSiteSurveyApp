@@ -169,3 +169,7 @@ path.c3-line-lqi {
 .view {
     display: none;
 }
+
+.row-first {
+    margin-top: 5px;
+}
